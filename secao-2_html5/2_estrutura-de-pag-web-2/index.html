@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site</title>
+    <script>
+        function soma(x,y) {
+            return x + y
+        }
+        function subtracao(x,y) {
+            return x - y
+        }
+        var n1 = Number(prompt('Número 1'))
+        var n2 = Number(prompt('Número 2'))
+        var op = prompt('Operação: ')
+        if (op == '+') {
+            resultado = soma(n1, n2)
+        } else if (op == '-') {
+            resultado = subtracao(n1,n2)
+        }
+        
+        alert(resultado)
+    </script>
 </head>
 <body>
     <h1>Página principal</h1>
