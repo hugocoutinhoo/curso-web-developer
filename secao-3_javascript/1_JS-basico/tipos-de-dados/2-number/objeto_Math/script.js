@@ -1,4 +1,6 @@
 let num1 = 9;
+console.log(Math.PI)
+console.log(Math.E)
 
 // arendonda para baixo -> let num2 = Math.floor(num1);
 // arredonda para cima -> let num2 = Math.ceil(num1);
